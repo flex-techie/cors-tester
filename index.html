@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <title>CORS Tester</title>
+    <script type="module" src="./js/index.js"></script>
+</head>
+
+<body>
+    <div>
+        <button id="logout" type="button">Logout</button>
+        <form>
+            Username: <input id="username" type="text" value="testuser01"></input>
+            Password: <input id="password" type="password" value="testuser01"></input>
+            <button id="login" type="button">Login</button>
+        </form>
+    </div>
+    <div>
+        <button id="getScenarioList" type="button">Get Scenario List</button>
+        <button id="healthCheck" type="button">Check Health</button>
+    </div>
+
+    <form>
+        <div>
+          <input id="scenarioFile" type="file" name="file" multiple></input>
+        </div>
+        <div><input id="uploadScenario" type="button" value="Upload Scenario zip file"></div>
+    </form>
+</body>
+
+</html>
